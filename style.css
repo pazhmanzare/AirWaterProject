@@ -94,3 +94,27 @@ body.rainy{
 body.snow{
     background: linear-gradient(135deg,#E6DADA,#274046);
 }
+#weatherIcon{
+    font-size: 70px;
+    margin: 15px 0;
+}
+#suggestions{
+    width:100%;
+    background:#fff;
+    color:#000;
+    border-radius:10px;
+    margin-top:8px;
+    padding:0;
+    list-style:none;
+    overflow:hidden;
+}
+
+#suggestions li{
+    padding:12px;
+    cursor:pointer;
+    border-bottom:1px solid #ddd;
+}
+
+#suggestions li:hover{
+    background:#f3f3f3;
+}
