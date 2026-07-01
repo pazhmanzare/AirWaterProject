@@ -118,3 +118,18 @@ body.snow{
 #suggestions li:hover{
     background:#f3f3f3;
 }
+#forecast{
+    margin-top:20px;
+    display:flex;
+    gap:10px;
+    overflow-x:auto;
+}
+
+.day-card{
+    min-width:120px;
+    padding:10px;
+    border-radius:10px;
+    background:rgba(255,255,255,0.2);
+    text-align:center;
+    color:white;
+}
