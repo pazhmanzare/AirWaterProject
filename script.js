@@ -5,7 +5,7 @@ const result = document.getElementById("result");
 const suggestions = document.getElementById("suggestions");
 const forecast = document.getElementById("forecast");
 
-// ==================== حالت شب و روز ====================
+// ------------------ حالت شب و روز --------------------
 
 themeBtn.addEventListener("click", () => {
     document.body.classList.toggle("dark");
