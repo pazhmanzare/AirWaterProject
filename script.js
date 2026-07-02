@@ -17,7 +17,7 @@ themeBtn.addEventListener("click", () => {
     }
 });
 
-// ==================== دکمه جستجو ====================
+// --------------------- دکمه جستجو ---------------------
 
 searchBtn.addEventListener("click", () => {
 
@@ -32,7 +32,7 @@ searchBtn.addEventListener("click", () => {
 
 });
 
-// ==================== دریافت مختصات شهر ====================
+// ------------------- دریافت مختصات شهر -----------------------
 
 async function getWeather(city){
 
@@ -62,8 +62,7 @@ async function getWeather(city){
 
 }
 
-// ==================== دریافت آب و هوا ====================
-
+// ------------------ دریافت آب و هوا --------------------
 async function getWeatherData(lat,lon,city){
 
     const response=await fetch(
@@ -116,7 +115,7 @@ async function getWeatherData(lat,lon,city){
 
 }
 
-// ==================== پیشنهاد شهرها ====================
+// --------------- پیشنهاد شهرها ---------------------
 
 cityInput.addEventListener("input",async()=>{
 
