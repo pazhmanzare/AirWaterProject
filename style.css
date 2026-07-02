@@ -75,22 +75,22 @@ body.dark #themeBtn{
     background:#ffd43b;
     color:black;
 }
-/* آفتابی */
+
 body.sunny{
     background: linear-gradient(135deg,#f9d423,#ff4e50);
 }
 
-/* ابری */
+
 body.cloudy{
     background: linear-gradient(135deg,#757F9A,#D7DDE8);
 }
 
-/* بارانی */
+
 body.rainy{
     background: linear-gradient(135deg,#4B79A1,#283E51);
 }
 
-/* برفی */
+
 body.snow{
     background: linear-gradient(135deg,#E6DADA,#274046);
 }
@@ -125,11 +125,11 @@ body.snow{
     overflow-x:auto;
 }
 
-.day-card{
+/* .day-card{
     min-width:120px;
     padding:10px;
     border-radius:10px;
     background:rgba(255,255,255,0.2);
     text-align:center;
     color:white;
-}
+} */
